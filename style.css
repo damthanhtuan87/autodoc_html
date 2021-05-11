@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&display=swap');
+
+@media (min-width: 1200px){
+  .container {
+      max-width: 1170px;
+  }
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+*:focus {
+  outline: 0 ;
+}
+body{
+  background: #fafafa;
+}
+
+.h_100{
+  height: 100%;
+}
+.flex{
+  display: flex;
+}
+.flex_col{
+  display: flex;
+  flex-direction: column;
+}
+.space_bw{
+  justify-content: space-between;
+}
+.al_center{
+  align-items: center;
+}
+.al_start{
+  align-items: flex-start;
+}
+.text_white{
+  color: #FFF;
+}
+.text_bl{
+  color: #2C313F;
+}
+.text_blue{
+  color: #488AC6;
+}
+p,h3,h4,h5{
+  margin: 0;
+  padding: 0;
+}
+.text_cent{
+  text-align: center;
+}
+.pos_relative{
+  position: relative;
+}
+.border_bot:hover::after {
+  width: 81%;
+  margin: 4px 6px;
+  content: "";
+  border: 1.5px solid #488AC6;
+  background-color: #488AC6;
+  border-radius: 0px 5px 0px 5px;
+  height: 2px;
+  font-size: 0px;
+  display: flex;
+  position: absolute;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+}
+body{
+  font-family: 'Maven Pro', sans-serif;
+}
+.opa_06{
+  opacity: 0.6;
+}
+.opa_03{
+  opacity: 0.3;
+}
+.mt_20{
+  margin-top: 20px;
+}
+.ml_at{
+  margin-left: auto;
+}
+.mr_at{
+  margin-right: auto;
+}
+.mr_80{
+  margin-right: 80px;
+}
+.ml_10{
+  margin-left: 10px;
+}
+.ml_15{
+  margin-left: 15px;
+}
+.ml_30{
+  margin-left: 30px;
+}
+.ml_50{
+  margin-left: 50px;
+}
+.ml_80{
+  margin-left: 80px;
+}
+.mb_5{
+  margin-bottom: 5px;
+}
+.mb_20{
+  margin-bottom: 20px;
+}
+.mb_30{
+  margin-bottom: 30px;
+}
+.mb_40{
+  margin-bottom: 40px;
+}
+.mb_50{
+  margin-bottom: 50px;
+}
+.mb_60{
+  margin-bottom: 60px;
+}
+
+.fs_12{
+  font-size: 12px;
+}
+.fs_14{
+  font-size: 14px;
+}
+.fs_36{
+  font-size: 36px;
+}
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover{
+  text-decoration: none;
+}
+.deco_none:hover{
+  text-decoration: none;
+}
+.hover_blue:hover{
+  color: #488AC6;
+}
+.hover_white:hover{
+  color: #FFF;
+}
+.hover_bgr-bl:hover{
+  background: #2C313F;
+}
+.hover_bgr-blue:hover{
+  background: #488AC6;
+}
+/* .scrollbar_hidden::-webkit-scrollbar{
+  height: 4px ;
+}
+
+.scrollbar_hidden::-webkit-scrollbar-track {
+  background: #fff; 
+}
+.scrollbar_hidden::-webkit-scrollbar-thumb {
+  background: #fff; 
+} */
+
+::-webkit-scrollbar {
+  height: 0px;
+  width: 0px;
+}
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+  background: #4f87de; 
+} */
+
+.w_100{
+  font-weight: 100;
+}
+.w_200{
+  font-weight: 200;
+}
+.w_300{
+  font-weight: 300;
+}
+.w_400{
+  font-weight: 400;
+}
+.w_500{
+  font-weight: 500;
+}
+.w_600{
+  font-weight: 600;
+}
+.w_700{
+  font-weight: 700;
+}
+.w_800{
+  font-weight: 800;
+}
+.w_900{
+  font-weight: 900;
+}
+
+/* =================================================== */
+.preheader{
+  height: 40px;
+  width: 100%;
+  background-color: #488AC6;
+}
+.header{
+  height: 100px;
+  width: 100%;
+  background-color: #FFF;
+}
+.border_bot_5{
+  border-bottom: 5px solid #488AC6;
+}
+.main_intro{
+  background-image: url("body.png");
+  background-color: #488AC6;
+  width: 100%;
+  height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.compose_record{
+  height: 100px;
+  background: #2C313F;
+  width: 100%;
+}
+.intro{
+  width: 470px;
+  height: 100%;
+  margin-top: 100px;
+}
+.intro_title{
+  font-size: 42px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 45px;
+}
+.intro_content{
+  line-height: 26px;
+  font-style: normal;
+  font-weight: normal;
+}
+.intro_button{
+  width: 183px;
+  height: 46px;
+  background: #488AC6;
+  border-radius: 6px 20px;
+  justify-content: center;
+}
+.record_text{
+  width: 65%;
+}
+.record_title{
+line-height: 30px;
+}
+.record_content{
+  font-style: normal;
+  line-height: 20px;
+}
+.record_button{
+  width: 150px;
+  height: 46px;
+  background: #FFF;
+  border-radius: 6px 20px;
+  justify-content: center;
+}
+/* .record_button:hover a{
+  color: #FFF;
+} */
+.advan{
+  margin: 100px auto;
+}
+.advan_video{
+  margin-left: -21px;
+  position: relative;
+}
+.video_button{
+  position: absolute;
+  top: 158px;
+  left: 258px;
+}
+.video_button {
+  transition: transform 250ms;
+}
+/* .advan_video img{
+  transition: transform 10000ms;
+} */
+.advan_video:hover .video_button{
+  transform: translateY(-10px);
+}
+.advan_video:hover img{
+  /* opacity: 0.8; */
+  filter: brightness(70%);
+  transition: filter .5s ease-out;
+  -moz-transition: filter .5s ease-out;
+  -webkit-transition: filter .5s ease-out;
+  -o-transition: filter .5s ease-out;
+}
+.advan_text{
+  width: 49%;
+  margin-left: 43px;
+  margin-bottom: 20px;
+}
+.advan_text h2{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+.grid{
+  display: grid;
+}
+.grid_2{
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid_3{
+  grid-template-columns: repeat(3, 1fr);
+}
+.list_advan{
+  grid-gap: 55px 30px;
+}
+/* .wid_300{
+  width: 300px;
+  height: 300px;
+} */
+.list_advan li{
+  height: 80px;
+  /* background-color: #ccc; */
+}
+.advan_item img{
+  margin-right: 15px;
+}
+
+.line_h-20{
+  line-height: 20px;
+}
+.line_h-24{
+  line-height: 24px;
+}
+
+.func li{
+  height: 250px;
+  position: relative;
+}
+.blue_1{
+  background: #5098DA;
+}
+.func li img{
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+  opacity: 0.1;
+}
+.func li {
+  padding: 32px 60px;
+}
+.func li h5::after{
+  margin: 7px 0px;
+  content: "";
+  border: 1.5px solid #FFF;
+  background-color: #FFF;
+  border-radius: 0px 5px 0px 5px;
+  height: 2px;
+  width: 65px;
+  font-size: 0px;
+  display: flex;
+  position: absolute;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+}
+.blue_2{
+  background: #488AC6;
+}
+.blue_3{
+  background: #2C313F;
+}
+.func li p {
+  margin-top: 30px;
+  font-weight: 400;
+}
+.func li a {
+  width: 120px;
+  height: 32px;
+}
+.func_button{
+  width: 120px;
+  height: 32px;
+  background: #FFFFFF;
+  border-radius: 4px 20px;
+  justify-content: center;
+}
+
+footer{
+  width: 100%;
+  height: 46px;
+  text-align: center;
+}
+footer p{
+  line-height: 46px;
+  font-weight: 500;
+  color: #2C313F;
+}
